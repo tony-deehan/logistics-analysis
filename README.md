@@ -26,9 +26,16 @@ The objective was to determine whether delivery delays were caused by broad oper
 Dataset:  
 Olist Brazilian E-commerce Dataset (2016–2018)
 
-The dataset contains order-level logistics and seller data.
+The analysis used order, customer, and seller-level data from the Olist dataset.
 
-Each row represents a single order and includes:
+### Key Tables Used
+
+- **Orders** — delivery timing and order status data  
+- **Customers** — customer location and regional segmentation  
+- **Order Items** — seller attribution at order level  
+- **Sellers** — seller metadata and location enrichment  
+
+### Key Fields Used
 
 - Order ID  
 - Seller ID  
